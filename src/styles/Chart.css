@@ -1,0 +1,29 @@
+.chartBanner{
+  background-color: #107659;
+}
+
+.formInputContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.formInputContainer > div  {
+  margin: .5rem;
+}
+
+.chartBanner p {
+  margin: 0;
+  padding: .5rem;
+}
+
+.plotDiv{
+  width: 100%;
+}
+
+.js-plotly-plot{
+    width: 100%;
+}
+
+.js-plotly-plot .plotly .main-svg{
+  width: 100%;
+}

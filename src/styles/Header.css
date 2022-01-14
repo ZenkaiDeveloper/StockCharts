@@ -1,0 +1,50 @@
+.navbar{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 1rem;
+}
+
+.checkboxContainer {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-left: 1.25rem;
+  font-size: 1.5rem;
+}
+
+.checkBoxWrapper input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+.checkBoxWrapper label {
+  margin-left: .5rem;
+}
+
+
+.checkboxFour{
+  margin-right: 1rem;
+}
+
+
+.dateContainer > div{
+  margin: 1rem;
+}
+
+.fromWrapper > label, .toWrapper > label{
+  margin-right: 1rem;
+}
+
+.fromWrapper > label{
+  margin-left: -1.25rem;
+}
+
+.exportBtn > button{
+  background-color: #18de4d;
+  border-radius: 5px;
+  border: none;
+  margin-top: 2rem;
+  text-align: center;
+  padding: .5rem;
+}
